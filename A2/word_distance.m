@@ -23,3 +23,4 @@ word_rep1 = word_embedding_weights(id1, :);
 word_rep2 = word_embedding_weights(id2, :);
 diff = word_rep1 - word_rep2;
 distance = sqrt(sum(diff .* diff));
+
